@@ -12,6 +12,9 @@
     "paths": {
       "main": [
         "dist/main"
+      ],
+      "nav": [
+        "dist/nav"
       ]
     },
     "noFallthroughCasesInSwitch": true,
