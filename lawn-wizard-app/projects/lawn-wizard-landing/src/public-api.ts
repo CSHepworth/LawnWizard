@@ -15,4 +15,3 @@ export * from './lib/landscaping/landscaping/landscaping.component';
 export * from './lib/lawncare/lawncare/lawncare.component';
 export * from './lib/navbar/navbar/navbar.component';
 export * from './lib/pest-control/pest-control/pest-control.component';
-

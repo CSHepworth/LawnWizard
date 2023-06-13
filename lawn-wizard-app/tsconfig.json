@@ -18,6 +18,9 @@
       ],
       "nav": [
         "dist/nav"
+      ],
+      "showcase": [
+        "dist/showcase"
       ]
     },
     "noFallthroughCasesInSwitch": true,
