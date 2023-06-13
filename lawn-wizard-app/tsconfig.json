@@ -10,6 +10,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
+      "lawn-wizard-landing": [
+        "dist/lawn-wizard-landing"
+      ],
       "main": [
         "dist/main"
       ],
