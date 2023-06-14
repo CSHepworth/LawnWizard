@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { LawnWizardLandingComponent } from './lawn-wizard-landing.component';
-import { LandingRoutingModule } from './landing-routing.module';
 import { AboutModule } from './about/about.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { LandscapingModule } from './landscaping/landscaping.module';
 import { LawncareModule } from './lawncare/lawncare.module';
 import { NavbarModule } from './navbar/navbar.module';
 import { PestControlModule } from './pest-control/pest-control.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -21,7 +21,7 @@ import { PestControlModule } from './pest-control/pest-control.module';
     LawncareModule,
     NavbarModule,
     PestControlModule,
-    LandingRoutingModule
+    RouterModule
   ],
   exports: [
     LawnWizardLandingComponent
