@@ -2,6 +2,10 @@
  * Public API Surface of lawn-wizard-landing
  */
 
+export * from './lib/lawn-wizard-landing.component';
+export * from './lib/lawn-wizard-landing.module';
+export * from './lib/lawn-wizard-landing.service';
+
 export * from './lib/about/about.module';
 export * from './lib/dashboard/dashboard.module';
 export * from './lib/landscaping/landscaping.module';

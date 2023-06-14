@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LawnWizardLandingComponent } from 'projects/lawn-wizard-landing/src/lib/lawn-wizard-landing.component';
+import { LawnWizardLandingComponent } from 'projects/lawn-wizard-landing/src/public-api';
 
 const routes: Routes = [
-  { path: '', component: LawnWizardLandingComponent }
+  { path: 'official', component: LawnWizardLandingComponent },
+  { path: '', redirectTo: '/official', pathMatch: 'full' }  
 ];
 
 @NgModule({
