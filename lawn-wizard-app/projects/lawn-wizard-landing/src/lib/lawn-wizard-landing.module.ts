@@ -8,6 +8,7 @@ import {
   NavbarModule, 
   PestControlModule 
 } from 'lawn-wizard-landing';
+import { LandingRoutingModule } from './landing-routing.module';
 
 
 
@@ -21,7 +22,8 @@ import {
     LandscapingModule,
     LawncareModule,
     NavbarModule,
-    PestControlModule
+    PestControlModule,
+    LandingRoutingModule
   ],
   exports: [
     LawnWizardLandingComponent
