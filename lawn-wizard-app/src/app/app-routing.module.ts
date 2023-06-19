@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BusinessComponent, LoginComponent } from 'projects/business/src/public-api';
 import { 
   AboutComponent, 
   CareersComponent, 
@@ -23,6 +24,12 @@ const routes: Routes = [
     ]   
   },
   { path: '', redirectTo: '/official/dashboard', pathMatch: 'full' },
+  { path: 'business',
+    component: BusinessComponent,
+    children: [
+      { path: 'business/login', component: LoginComponent}
+    ]
+  }
 ];
 
 @NgModule({

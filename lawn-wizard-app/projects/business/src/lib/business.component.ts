@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-business',
-  template: `
-    <p>
-      business works!
-    </p>
-  `,
+  template: './business.component.html',
   styles: [
   ]
 })
