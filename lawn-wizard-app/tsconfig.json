@@ -10,6 +10,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
+      "business": [
+        "dist/business"
+      ],
       "lawn-wizard-landing": [
         "dist/lawn-wizard-landing"
       ],
