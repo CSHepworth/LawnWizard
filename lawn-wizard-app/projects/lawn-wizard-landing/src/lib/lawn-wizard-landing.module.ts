@@ -7,6 +7,7 @@ import { LawncareModule } from './lawncare/lawncare.module';
 import { NavbarModule } from './navbar/navbar.module';
 import { PestControlModule } from './pest-control/pest-control.module';
 import { RouterModule } from '@angular/router';
+import { CareersModule } from './careers/careers.module';
 
 
 
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     AboutModule,
+    CareersModule,
     DashboardModule,
     LandscapingModule,
     LawncareModule,

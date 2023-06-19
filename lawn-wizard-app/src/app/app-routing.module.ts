@@ -1,6 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent, DashboardComponent, LandscapingComponent, LawnWizardLandingComponent, LawncareComponent, PestControlComponent } from 'projects/lawn-wizard-landing/src/public-api';
+import { 
+  AboutComponent, 
+  CareersComponent, 
+  DashboardComponent, 
+  LandscapingComponent, 
+  LawnWizardLandingComponent, 
+  LawncareComponent, 
+  PestControlComponent 
+} from 'projects/lawn-wizard-landing/src/public-api';
 
 const routes: Routes = [
   { path: 'official', 
@@ -10,10 +18,11 @@ const routes: Routes = [
       { path: 'lawncare', component: LawncareComponent },
       { path: 'landscaping', component: LandscapingComponent },
       { path: 'pest-control', component: PestControlComponent },
+      { path: 'careers', component: CareersComponent },
       { path: 'about', component: AboutComponent }
     ]   
   },
-  { path: '', redirectTo: '/official', pathMatch: 'full' },
+  { path: '', redirectTo: '/official/dashboard', pathMatch: 'full' },
 ];
 
 @NgModule({
