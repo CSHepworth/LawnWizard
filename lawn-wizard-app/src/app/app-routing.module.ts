@@ -27,9 +27,10 @@ const routes: Routes = [
   { path: 'business',
     component: BusinessComponent,
     children: [
-      { path: 'business/login', component: LoginComponent}
+      
     ]
-  }
+  },
+  { path: 'business/login', component: LoginComponent }
 ];
 
 @NgModule({
