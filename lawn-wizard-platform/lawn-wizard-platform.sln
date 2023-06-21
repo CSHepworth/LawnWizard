@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lawn-wizard-platform", "lawn-wizard-platform.csproj", "{0C76D442-C013-415A-A066-C196D2A08B4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lawn-wizard-platform", "lawn-wizard-platform.csproj", "{E96C54FB-9465-41D1-8E78-1C487D2C2625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C76D442-C013-415A-A066-C196D2A08B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C76D442-C013-415A-A066-C196D2A08B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C76D442-C013-415A-A066-C196D2A08B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C76D442-C013-415A-A066-C196D2A08B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96C54FB-9465-41D1-8E78-1C487D2C2625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96C54FB-9465-41D1-8E78-1C487D2C2625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96C54FB-9465-41D1-8E78-1C487D2C2625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96C54FB-9465-41D1-8E78-1C487D2C2625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3F0D3887-847B-4DA1-8B7A-AD7D782348DB}
+		SolutionGuid = {A5D623F9-9FFE-45FD-9027-647BB1BC381E}
 	EndGlobalSection
 EndGlobal
