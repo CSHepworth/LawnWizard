@@ -13,6 +13,9 @@
       "business": [
         "dist/business"
       ],
+      "lawn-wizard-business": [
+        "dist/lawn-wizard-business"
+      ],
       "lawn-wizard-landing": [
         "dist/lawn-wizard-landing"
       ],

@@ -133,23 +133,23 @@
         }
       }
     },
-    "showcase": {
+    "lawn-wizard-business": {
       "projectType": "library",
-      "root": "projects/showcase",
-      "sourceRoot": "projects/showcase/src",
+      "root": "projects/lawn-wizard-business",
+      "sourceRoot": "projects/lawn-wizard-business/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/showcase/ng-package.json"
+            "project": "projects/lawn-wizard-business/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/showcase/tsconfig.lib.prod.json"
+              "tsConfig": "projects/lawn-wizard-business/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/showcase/tsconfig.lib.json"
+              "tsConfig": "projects/lawn-wizard-business/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -157,40 +157,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/showcase/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
-          }
-        }
-      }
-    },
-    "business": {
-      "projectType": "library",
-      "root": "projects/business",
-      "sourceRoot": "projects/business/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/business/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/business/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/business/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "tsConfig": "projects/business/tsconfig.spec.json",
+            "tsConfig": "projects/lawn-wizard-business/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
