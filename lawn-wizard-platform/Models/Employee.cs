@@ -40,7 +40,7 @@ namespace lawn_wizard_platform.Models
 
         [Display( Name = "Hire Date" )]
         [Required( ErrorMessage = "is required" )]
-        public DateTime HireDate { get; set; }
+        public DateTime HireDate { get; set; } = DateTime.Now;
 
         [Display(Name = "Admin Status")]
         public bool AdminStatus { get; set; } = false;

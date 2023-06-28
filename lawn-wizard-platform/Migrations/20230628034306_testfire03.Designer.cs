@@ -11,8 +11,8 @@ using lawn_wizard_platform.Models;
 namespace lawn_wizard_platform.Migrations
 {
     [DbContext(typeof(LawnWizardContext))]
-    [Migration("20230624021517_testfire02")]
-    partial class testfire02
+    [Migration("20230628034306_testfire03")]
+    partial class testfire03
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -102,6 +102,10 @@ namespace lawn_wizard_platform.Migrations
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");

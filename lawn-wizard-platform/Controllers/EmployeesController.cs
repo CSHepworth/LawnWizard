@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace lawn_wizard_platform.Controllers
@@ -15,6 +16,15 @@ namespace lawn_wizard_platform.Controllers
         public EmployeesController(LawnWizardContext context)
         {
             db = context;
+        }
+
+        [HttpGet("GetAllEmployees")]
+        public IActionResult GetAllEmployees() 
+        {
+            List<Employee> allEmployees = db.Employees
+                .Include(j => j.JobTitle)
+                .ToList();
+            return allEmployees == null ? NotFound() : Ok(allEmployees);
         }
 
         [HttpGet("GetEmployeeByName")]
