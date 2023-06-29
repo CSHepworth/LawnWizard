@@ -7,16 +7,16 @@ namespace lawn_wizard_platform.Models
     public class JobTitle
     {
         [Key]
-        public int JobTitleId { get; set; }
+        public int jobTitleId { get; set; }
 
         [Display( Name = "Title" )]
         [Required( ErrorMessage = "is required" )]
-        public string Title { get; set; }
+        public string title { get; set; }
 
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public List<Employee> employees { get; set; } = new List<Employee>();
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime UpdatedAt { get; set;} = DateTime.Now;
+        public DateTime createdAt { get; set; } = DateTime.Now;
+        public DateTime updatedAt { get; set;} = DateTime.Now;
 
     }
 }

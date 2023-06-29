@@ -6,10 +6,10 @@ namespace lawn_wizard_platform.Models
     {
         public LawnWizardContext( DbContextOptions options ) : base( options ) { }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> employees { get; set; }
 
-        public DbSet<JobTitle> JobTitles { get; set; }
+        public DbSet<JobTitle> jobTitles { get; set; }
 
-        public DbSet<EmployeesJobs> EmployeesJobs { get; set; }
+        public DbSet<EmployeesJobs> employeesJobs { get; set; }
     }
 }
