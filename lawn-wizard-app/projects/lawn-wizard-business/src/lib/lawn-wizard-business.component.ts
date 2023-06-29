@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-lawn-wizard-business',
-  template: `
-    <p>
-      lawn-wizard-business works!
-    </p>
-  `,
+  templateUrl: './lawn-wizard-business.component.html',
   styles: [
   ]
 })

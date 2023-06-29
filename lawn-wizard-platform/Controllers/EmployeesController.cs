@@ -21,9 +21,7 @@ namespace lawn_wizard_platform.Controllers
         [HttpGet("GetAllEmployees")]
         public IActionResult GetAllEmployees() 
         {
-            List<Employee> allEmployees = db.Employees
-                .Include(j => j.JobTitle)
-                .ToList();
+            List<Employee> allEmployees = db.Employees.ToList();
             return allEmployees == null ? NotFound() : Ok(allEmployees);
         }
 

@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { LawnWizardBusinessComponent } from './lawn-wizard-business.component';
 import { RegisterEmployeeModule } from './register-employee/register-employee.module';
+import { BusinessDashboardModule } from './business-dashboard/business-dashboard.module';
+import { BusinessNavbarModule } from './business-navbar/business-navbar.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -10,10 +13,14 @@ import { RegisterEmployeeModule } from './register-employee/register-employee.mo
   ],
   imports: [
     RegisterEmployeeModule,
-    
+    BusinessDashboardModule,
+    BusinessNavbarModule,
+    RouterModule
   ],
   exports: [
     LawnWizardBusinessComponent
+  ],
+  providers: [
   ]
 })
 export class LawnWizardBusinessModule { }

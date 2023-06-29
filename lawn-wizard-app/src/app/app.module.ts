@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutModule } from 'projects/lawn-wizard-landing/src/public-api';
 import { LawnWizardLandingModule } from 'projects/lawn-wizard-landing/src/lib/lawn-wizard-landing.module';
+import { LawnWizardBusinessModule } from 'projects/lawn-wizard-business/src/public-api';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { LawnWizardLandingModule } from 'projects/lawn-wizard-landing/src/lib/la
     BrowserModule,
     AppRoutingModule,
     AboutModule,
-    LawnWizardLandingModule
+    LawnWizardLandingModule,
+    LawnWizardBusinessModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
