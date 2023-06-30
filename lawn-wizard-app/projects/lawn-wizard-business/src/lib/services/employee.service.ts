@@ -8,11 +8,11 @@ export class EmployeeService {
 
   private EmployeesUrl = 'https://localhost:7272/Employees';
 
-  private Employees: BehaviorSubject<Employee[]> = new BehaviorSubject<Employee[]>([]);
+  private $Employees: BehaviorSubject<Employee[]> = new BehaviorSubject<Employee[]>([]);
 
   httpOptions = {
     headers: new HttpHeaders(
-      { 
+      {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*'
       }
@@ -23,8 +23,8 @@ export class EmployeeService {
 
   getEmployees() {
     return this.http.get(this.EmployeesUrl + '/GetAllEmployees')
-      .subscribe( v => { 
-        if(v) this.Employees.next(JSON.parse(JSON.stringify(v)));
+      .subscribe( v => {
+        if(v) this.$Employees.next(JSON.parse(JSON.stringify(v)));
       });
   }
 }
