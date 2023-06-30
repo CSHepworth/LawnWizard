@@ -8,7 +8,7 @@ export class EmployeeService {
 
   private EmployeesUrl = 'https://localhost:7272/Employees';
 
-  private $Employees: BehaviorSubject<Employee[]> = new BehaviorSubject<Employee[]>([]);
+  $Employees: BehaviorSubject<Employee[]> = new BehaviorSubject<Employee[]>([]);
 
   httpOptions = {
     headers: new HttpHeaders(

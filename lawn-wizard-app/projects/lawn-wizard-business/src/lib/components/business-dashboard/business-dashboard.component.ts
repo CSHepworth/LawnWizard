@@ -11,22 +11,22 @@ import { Subscription } from 'rxjs';
 export class BusinessDashboardComponent implements OnInit, OnDestroy {
 
   employees: Employee[] = [];
-  employeesSub: Subscription;
+  employeesSub: Subscription | null = null;
 
   constructor(private employeeService: EmployeeService) { }
 
   ngOnInit(): void {
     this.getAllEmployees();
-    console.log(this.employees)
+    console.log(this.employees);
   }
 
   ngOnDestroy(): void {
-    this.employeesSub.unsubscribe();
+    this.employeesSub?.unsubscribe();
   }
 
   getAllEmployees(): void {
     this.employeeService.getEmployees();
-    this.employeeService.$Employees.subscribe( v => {
+    this.employeesSub = this.employeeService.$Employees.subscribe( v => {
       if (v) {
         this.employees = v;
       }
