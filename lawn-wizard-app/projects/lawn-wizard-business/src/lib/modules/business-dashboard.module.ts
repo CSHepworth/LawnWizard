@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BusinessDashboardComponent } from './business-dashboard/business-dashboard.component';
+import { BusinessDashboardComponent } from '../components/business-dashboard/business-dashboard.component';
 
 
 

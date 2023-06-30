@@ -7,14 +7,14 @@ namespace lawn_wizard_platform.Models
     public class EmployeesJobs
     {
         [Key]
-        public int employeeJobId { get; set; }
+        public int EmployeeJobId { get; set; }
 
-        public int employeeId { get; set; }
+        public int EmployeeId { get; set; }
 
-        public int jobTitleId { get; set; }
+        public int JobTitleId { get; set; }
 
-        public Employee? employee { get; set; }
+        public Employee? Employee { get; set; }
 
-        public JobTitle? jobTitle { get; set; }
+        public JobTitle? JobTitle { get; set; }
     }
 }

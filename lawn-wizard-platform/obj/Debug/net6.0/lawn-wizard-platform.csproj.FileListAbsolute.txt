@@ -52,3 +52,4 @@ C:\Users\coope\GitHub\LawnWizard\lawn-wizard-platform\bin\Debug\net6.0\System.Co
 C:\Users\coope\GitHub\LawnWizard\lawn-wizard-platform\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\coope\GitHub\LawnWizard\lawn-wizard-platform\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\coope\GitHub\LawnWizard\lawn-wizard-platform\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\coope\GitHub\LawnWizard\lawn-wizard-platform\bin\Debug\net6.0\Newtonsoft.Json.dll

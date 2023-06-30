@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ONutwy9aXgoDpvkFuunMz5yTwfydiUKr5sp37Ir6XCM4gUeVRHxxACs7Mpk9Ji8pYMJW7h+SumjUICUj96ZwTg==",
+  "dgSpecHash": "N3qlRwKVw0CLPe06eRQiW7dUaO5olzT0PnFuBzFZeSeZguayo6fKIFULt41fbe/wFOH4l+8RErA8wlSeGSNMrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\coope\\GitHub\\LawnWizard\\lawn-wizard-platform\\lawn-wizard-platform.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\coope\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\coope\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\coope\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\coope\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\coope\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\coope\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\coope\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

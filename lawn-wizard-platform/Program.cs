@@ -1,3 +1,5 @@
+using lawn_wizard_platform.BLL;
+using lawn_wizard_platform.BLL.Interfaces;
 using lawn_wizard_platform.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -5,7 +7,7 @@ var MyAllowSpecificOrigins = "_MyAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddScoped<IEmployeeBLL, EmployeeBLL>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -33,8 +35,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 }
 
 app.UseCors(MyAllowSpecificOrigins);

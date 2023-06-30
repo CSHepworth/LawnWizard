@@ -20,7 +20,7 @@ export class BusinessDashboardComponent implements OnInit {
 
   getAllEmployees(): void {
     this.employeeService.getEmployees()
-      .subscribe(employees => this.employees = employees)
+      // .subscribe(employees => this.employees = employees)
     
     
   }

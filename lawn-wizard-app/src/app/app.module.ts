@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     AboutModule,
     LawnWizardLandingModule,
     LawnWizardBusinessModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
