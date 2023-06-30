@@ -29,6 +29,7 @@ export class BusinessDashboardComponent implements OnInit, OnDestroy {
     this.employeesSub = this.employeeService.$Employees.subscribe( v => {
       if (v) {
         this.employees = v;
+        console.log(this.employees);
       }
     });
   }
