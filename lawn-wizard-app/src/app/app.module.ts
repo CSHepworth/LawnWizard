@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutModule } from 'projects/lawn-wizard-landing/src/public-api';
 import { LawnWizardLandingModule } from 'projects/lawn-wizard-landing/src/lib/lawn-wizard-landing.module';
-import { LawnWizardBusinessModule } from 'projects/lawn-wizard-business/src/public-api';
+import { LawnWizardBusinessModule } from 'projects/lawn-wizard-business/src/lib/lawn-wizard-business.module';
 
 import { HttpClientModule } from '@angular/common/http';
 

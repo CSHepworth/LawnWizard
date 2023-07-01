@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BusinessNavbarComponent } from '../business-navbar/business-navbar/business-navbar.component';
+import { BusinessNavbarComponent } from '../components/business-navbar/business-navbar.component';
 
 
 

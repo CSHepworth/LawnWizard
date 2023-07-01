@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { 
-  BusinessDashboardComponent, 
-  LawnWizardBusinessComponent, 
-  RegisterEmployeeComponent 
-} from 'projects/lawn-wizard-business/src/public-api';
+import { BusinessDashboardComponent } from 'projects/lawn-wizard-business/src/lib/components/business-dashboard/business-dashboard.component';
+import { RegisterEmployeeComponent } from 'projects/lawn-wizard-business/src/lib/components/register-employee/register-employee.component';
+import { LawnWizardBusinessComponent } from 'projects/lawn-wizard-business/src/lib/lawn-wizard-business.component';
+
 import { 
   AboutComponent, 
   CareersComponent, 

@@ -1,10 +1,10 @@
 export interface Employee {
-    employeeEmail: string;
-    firstName: string;
-    lastName: string;
-    hireDate: Date;
-    adminStatus: boolean;
-    managerStatus: boolean;
-    jobTitleId: number;
-    jobTitle: {};
+    EmployeeEmail: string;
+    FirstName: string;
+    LastName: string;
+    HireDate: Date;
+    AdminStatus: boolean;
+    ManagerStatus: boolean;
+    JobTitleId: number;
+    JobTitle: {};
 }

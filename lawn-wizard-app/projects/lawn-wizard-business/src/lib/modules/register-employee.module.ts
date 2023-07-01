@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RegisterEmployeeComponent } from './register-employee/register-employee.component';
+import { RegisterEmployeeComponent } from '../components/register-employee/register-employee.component';
 
 
 
